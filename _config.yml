@@ -1,0 +1,109 @@
+# Site settings
+title: CoderChris Blog
+SEOTitle: 松n_n鼠de博客 | CoderChris Blog
+header-img: img/post-bg-desk.jpg
+email: songykl.93@gmail.com
+description: "努力努力再努力，进步进步再进步。"
+keyword: "CoderChris, CoderChris Blog, 松n_n鼠de博客, Chris, 李松, iOS, Apple, iPhone"
+url: "http://Chris039.github.io"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/Chris039/Chris039.github.io.git" # you code repository
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "生命不息，奋斗不止！"
+sidebar-avatar: /img/image_header.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# SNS settings
+RSS: false
+# weibo_username:     qiubaiying
+# zhihu_username:     qiubaiying
+github_username:    Chris039
+facebook_username:  100028545847109
+jianshu_username:   e5d5bb0cbefd
+twitter_username:   3Y0o9GW98hdoKlY
+# lofter_username:    songykl
+
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# 评论系统
+# Disqus（https://disqus.com/）
+# disqus_username: Chris039
+
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: d63de560a00dd1d81c08                            #生成的clientID
+  clientSecret: d779a41c569603312e64fe1d1ea1f0392bab4e3b    #生成的clientSecret
+  repo: chris039.github.io   #仓库名称
+  owner: Chris039    #github用户名
+  admin: Chris039
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
+# 统计
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: 9984867557ef7c954e9cc41bdb052d96
+
+# Google Analytics
+ga_track_id: 'UA-133300924-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+
+
+
+
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "Apple",
+        href: "https://apple.com"
+    },{
+        title: "Apple Developer",
+        href: "https://developer.apple.com/"
+    }
+]
